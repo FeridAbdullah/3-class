@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        SportsCar car = new SportsCar("Ferrari", 200);
+        car.displayBrand();
+        car.showSpeed();
+        car.start();
+        car.accelerate();
+    }
+}
