@@ -1,0 +1,13 @@
+class SportsCar extends Car {
+    SportsCar(String brand, int speed) {
+        super(brand, speed);
+    }
+    
+    void start() {
+        System.out.println(brand + " is starting...");
+    }
+    
+    void accelerate() {
+        System.out.println(brand + " is accelerating...");
+    }
+}
