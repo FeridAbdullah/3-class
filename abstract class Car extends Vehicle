@@ -1,0 +1,14 @@
+abstract class Car extends Vehicle {
+    int speed;
+    
+    Car(String brand, int speed) {
+        super(brand);
+        this.speed = speed;
+    }
+    
+    abstract void accelerate();
+    
+    void showSpeed() {
+        System.out.println("Speed: " + speed + " km/h");
+    }
+}
